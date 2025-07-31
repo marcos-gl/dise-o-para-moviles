@@ -48,9 +48,9 @@ header button{
     width: 335.33px;
     height: 480px;
 
-    background-image: url('../img/1.png');
-    background-size: 129% auto;
-    background-position: 49% 30%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(../img/1.png);
+    background-size: auto 100%;
+    background-position: 38% 29%;
     background-repeat: no-repeat;
 
 
@@ -62,7 +62,7 @@ header button{
     padding: 20px;
 }
 
-main h1{
+#hero-main h1{
     font-family: Epilogue;
     font-weight: 700;
     font-size: 44px;
@@ -74,7 +74,7 @@ main h1{
     margin: 0;
 }
 
-main button {
+#hero-main button {
     min-width: 127px;
     min-height: 48px;
 
@@ -89,3 +89,107 @@ main button {
     margin-top: 25px;
 
 }
+
+.texto-despues-de-img{
+    height: 112px;
+
+    font-family: Epilogue;
+
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 30px;
+}
+
+.Titulo {
+    width: 375.33px;
+    height: 60px;
+
+    font-family: Epilogue;
+    font-weight: 700;
+    font-size: 22px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-left: 20px;
+
+}
+
+.model-box{
+    width: 375.33px;
+    height: 404px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+
+}
+
+.img-box{
+    width: 361px;
+    height: 301px;
+
+    background-image: url('../img/pan1.png');
+    background-size: auto 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 12px;
+}
+
+.model-box h1{
+    font-family: Epilogue;
+
+    padding-top: 20px;
+    padding-right: 127px;
+
+    margin: 0;
+}
+
+.model-box p{
+    font-family: Epilogue;
+    font-size: 14.8px;
+    line-height: 20px;
+
+    width: 361px;
+
+    margin: 0;
+}
+
+.img-box2{
+    width: 361px;
+    height: 301px;
+
+    background-image: url('../img/pan2.png');
+    background-size: auto 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 12px;
+}
+
+
+.img-box3{
+    width: 361px;
+    height: 301px;
+
+    background-image: url('../img/pan3.png');
+    background-size: auto 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 12px;
+}
+
