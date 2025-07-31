@@ -1,4 +1,9 @@
-body{
+* {
+    box-sizing: border-box;
+}
+
+
+body {
     margin: 0;
     padding: 0;
 
@@ -9,7 +14,7 @@ body{
     min-height: 100vh;
 }
 
-.cabecera{
+.cabecera {
     width: 100%;
     height: 81px;
 
@@ -19,19 +24,19 @@ body{
     justify-content: space-around;
 }
 
-header h1{
+header h1 {
     margin: 0;
 
     width: 148px;
     height: 23px;
 
-    font-family:Epilogue;
+    font-family: Epilogue;
     font-weight: 700;
     font-size: 18px;
     line-height: 23px;
 }
 
-header button{
+header button {
     min-width: 108px;
     min-height: 40px;
 
@@ -44,9 +49,9 @@ header button{
     font-weight: 700;
 }
 
-#hero-main{
-    width: 335.33px;
-    height: 480px;
+#hero-main {
+    width: 100%;
+    height: 50dvh;
 
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(../img/1.png);
     background-size: auto 100%;
@@ -62,7 +67,7 @@ header button{
     padding: 20px;
 }
 
-#hero-main h1{
+#hero-main h1 {
     font-family: Epilogue;
     font-weight: 700;
     font-size: 44px;
@@ -90,7 +95,7 @@ header button{
 
 }
 
-.texto-despues-de-img{
+.texto-despues-de-img {
     height: 112px;
 
     font-family: Epilogue;
@@ -103,7 +108,7 @@ header button{
     justify-content: center;
 }
 
-#productos{
+#productos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,17 +132,17 @@ header button{
 
 }
 
-.model-box{
+.model-box {
     width: 375.33px;
     height: 404px;
 
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
 
 }
 
-.img-box{
+.img-box {
     width: 361px;
     height: 301px;
 
@@ -149,7 +154,7 @@ header button{
     border-radius: 12px;
 }
 
-.model-box h1{
+.model-box h1 {
     font-family: Epilogue;
 
     padding-top: 20px;
@@ -158,7 +163,7 @@ header button{
     margin: 0;
 }
 
-.model-box p{
+.model-box p {
     font-family: Epilogue;
     font-size: 14.8px;
     line-height: 20px;
@@ -168,7 +173,7 @@ header button{
     margin: 0;
 }
 
-.img-box2{
+.img-box2 {
     width: 361px;
     height: 301px;
 
@@ -181,7 +186,7 @@ header button{
 }
 
 
-.img-box3{
+.img-box3 {
     width: 361px;
     height: 301px;
 
@@ -194,18 +199,18 @@ header button{
 }
 
 
-.form-contac{
+.form-contac {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
 
-.contact{
+.contact {
     width: 375.33px;
 }
 
-.contact h1{
+.contact h1 {
     font-family: Epilogue;
     font-weight: 700;
 
