@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    /* estudiar que show */
 }
 
 
@@ -12,7 +13,12 @@ body {
     scroll-behavior: smooth;
 
     min-height: 100vh;
+
 }
+
+/* conventions bem */
+
+/* unidades relativas */
 
 .cabecera {
     width: 100%;
@@ -24,7 +30,7 @@ body {
     justify-content: space-around;
 }
 
-header h1 {
+.titulo-cabecera {
     margin: 0;
 
     width: 148px;
@@ -36,7 +42,7 @@ header h1 {
     line-height: 23px;
 }
 
-header button {
+.boton-cabecera {
     min-width: 108px;
     min-height: 40px;
 
@@ -49,7 +55,7 @@ header button {
     font-weight: 700;
 }
 
-#hero-main {
+.hero-main {
     width: 100%;
     height: 50dvh;
 
@@ -67,7 +73,7 @@ header button {
     padding: 20px;
 }
 
-#hero-main h1 {
+.titulo-hero-main {
     font-family: Epilogue;
     font-weight: 700;
     font-size: 44px;
@@ -79,7 +85,7 @@ header button {
     margin: 0;
 }
 
-#hero-main button {
+.boton-hero-main {
     min-width: 127px;
     min-height: 48px;
 
@@ -108,7 +114,8 @@ header button {
     justify-content: center;
 }
 
-#productos {
+.productos {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,7 +123,7 @@ header button {
     padding-bottom: 30px;
 }
 
-.Titulo {
+.productos-titulo {
     width: 375.33px;
     height: 60px;
 
@@ -210,7 +217,7 @@ header button {
     width: 375.33px;
 }
 
-.contact h1 {
+.contact-titulo {
     font-family: Epilogue;
     font-weight: 700;
 
@@ -222,4 +229,97 @@ header button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.name {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-caja {
+    width: 361px;
+    height: 140px;
+}
+
+.name-titulo {
+    font-family: Epilogue;
+    font-weight: 700;
+}
+
+.name-input {
+    width: 361px;
+    height: 56px;
+
+    border-radius: 12px;
+
+    border: none;
+    background-color: #F5F2F0;
+}
+
+.name-input::placeholder {
+    font-family: Epilogue;
+    font-size: 14px;
+    color: #8A7361;
+}
+
+.email {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-caja {
+    width: 361px;
+    height: 140px;
+}
+
+.email-titulo {
+    font-family: Epilogue;
+    font-weight: 700;
+}
+
+.email-input {
+    width: 361px;
+    height: 56px;
+
+    border-radius: 12px;
+
+    border: none;
+    background-color: #F5F2F0;
+}
+
+.email-input::placeholder {
+    font-family: Epilogue;
+    font-size: 14px;
+    color: #8A7361;
+}
+
+.message {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message-caja {
+    width: 361px;
+    height: 240px;
+}
+
+.message-titulo {
+    font-family: Epilogue;
+    font-weight: 700;
+}
+
+.message-input {
+    width: 361px;
+    height: 144px;
+
+    border-radius: 12px;
+
+    border: none;
+    background-color: #F5F2F0;
 }
